@@ -2,11 +2,13 @@
 
 REM Define VM paths
 set serveraPath=H:\VM\cloned\servera.vmx
-set workstationPath=C:\Users\Rayhan_Sarker\Music\VM\workstation.vmx
+set workstationPath=C:\VM\workstation.vmx
 set serverbPath=H:\VM\serverb\serverb.vmx
+REM change the location of your Guest OS locations
 
 REM Check the first argument for the operation (suspend, start, stop, reboot)
-REM Check the second argument for the VM identifier (servera, workstation, serverb)
+REM Check the second argument for the VM identifier (servera, workstation, server)
+REM If you want to view the VM window remove the 'nogui' from the commands.
 
 if "%1"=="suspend" (
     if "%2"=="servera" vmrun -T ws suspend "%serveraPath%" nogui
