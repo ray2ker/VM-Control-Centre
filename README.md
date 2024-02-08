@@ -8,4 +8,10 @@ add this bat file in any environment path. or copy the bat file in VM location "
 this will help you to run commands like this 
 vm start workstation
 
-see the attached Photo.![VM-control-centre](https://github.com/ray2ker/VM-Control-Centre/assets/19851004/3d980738-d7c3-4584-8417-c980000fce3e)
+see the attached Photo.
+![VM-control-centre](https://github.com/ray2ker/VM-Control-Centre/assets/19851004/3d980738-d7c3-4584-8417-c980000fce3e)
+
+from the VM.bat file change the location of your Guest OS locations.
+If you want to view the VM window remove the 'nogui' from the commands, i made it run in background mode.
+
+Happy Coding!
