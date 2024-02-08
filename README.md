@@ -3,7 +3,7 @@ Control VM guest OS via Windows PowerShell.
 
 add this bat file in any environment path. or copy the bat file in VM location "C:\Program Files (x86)\VMware\VMware Workstation" and add the below command.
 
- $env:PATH += ";C:\Program Files (x86)\VMware\VMware Workstation"
+ >$env:PATH += ";C:\Program Files (x86)\VMware\VMware Workstation"
 
 this will help you to run commands like this 
 >vm start workstation
